@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронювання></title>
+    <link rel="stylesheet" href="slyle.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Arôme caffee</div>
+        <nav class="nav-menu" id="navMenu">
+          <a href="index.html">Головна</a>
+          <a href="gallery.html">Галерея</a>
+          <a href="booking.html"class="active">Бронювання</a>
+        </nav>
+      </header>
+      <section class="parallax bookin-section">
+        <div class="boking-container">
+            <h2>Забронювати столик</h2>
+            <p class="description">Зарезервуйте ідеальний час у нашій затишній кавярні</p>
+            <from action="#"> 
+                <div class="from-group">
+                    <label for="name">Ваше повне ім'я</label>
+                    <imput type="text" id="name" name="name" required>
+                </div>
+                <div class="from-group">
+                    <label for="date">Дата бронювання</label>
+                    <imput type="date" id="date" name="date" required>
+                </div>
+                <div class="from-group">
+                    <label for="time">Бажаний час</label>
+                    <imput type="time" id="time" name="time" required>
+                </div>
+            <div class="from-group from-checkbox">
+                <imput type="checkbox" id="agree" name="agree" required>
+                <label for="agree" class="check-label">Я згоден з правилами та умовами бронювання</label>
+            </div>
+            <button type="submit" class="btn-full">✓ Підтвердити бронювання</button>
+
+            </from>
+        </div>
+      </section>
+</body>
+</html>
